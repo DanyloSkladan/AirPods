@@ -24,6 +24,7 @@ ul {
 }
 
 
+
 body {
     font-family: 'Inter', sans-serif;
     color: #000;
@@ -36,6 +37,13 @@ body {
     max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.mein__title {
+    font-weight: 700px;
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .header {
@@ -149,4 +157,38 @@ body {
     border-radius: 20px;
     border: 1px solid #777;
     padding: 50px 55px;
+}
+
+
+.composition{
+    margin-bottom: 180px;
+}
+
+
+.composition__title{
+    text-align: center;
+}
+
+.composition__text {
+    text-align: center;
+    max-width: 655px;
+    margin: 0 auto 40px;
+}
+
+.composition__inner {
+    max-width: 625px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.composition__inner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.composition__inner-text p{
+    width: 230px;
 }
