@@ -223,22 +223,20 @@ body {
 
 }
 
-.footer {
-    padding: 250px 0 40px;
-    background-color: #000;
-}
+
 
 .audio {
-    position: relative;
-}
-
-
-.audio::before{
-    content: '';
-    background-image: url(../images/aud_bg.jpg);
+    /* position: relative; */
+    background-image: url(../images/kolya.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+
+
+/* .audio::before{
+    content: '';
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -264,10 +262,10 @@ body {
     left: 0;
     right: 0;
     z-index: -1
-}
+} */
 
 .audio__inner {
-    min-height: 200vh;
+    min-height: 220vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -276,7 +274,7 @@ body {
 .audio__box {
     color: #fff;
     text-align: center;
-    padding-bottom: 30vh;
+    padding-bottom: 50vh;
 }
 
 .audio__text {
@@ -292,4 +290,31 @@ body {
     border-radius: 30px;
     padding: 15px 58px;
     margin-top: 25px;
+}
+
+.footer {
+    padding: 50px 0 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+.footer__link {
+}
+.footer__text {
+    padding: 20px 0 ;
+}
+.logo {
+}
+.footer__list {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+}
+.footer__item {
 }
