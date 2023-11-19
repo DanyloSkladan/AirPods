@@ -105,6 +105,8 @@ body {
 }
 
 
+
+
 .title {
 
     font-size: 210px;
@@ -166,6 +168,10 @@ body {
     border-radius: 20px;
     border: 1px solid #777;
     padding: 50px 55px;
+}
+
+.choose__color-btn.choose__color-btn--active{
+    display: none;
 }
 
 
